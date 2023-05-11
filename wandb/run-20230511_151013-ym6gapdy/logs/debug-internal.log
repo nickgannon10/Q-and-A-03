@@ -1,0 +1,410 @@
+2023-05-11 15:10:13,318 INFO    StreamThr :18329 [internal.py:wandb_internal():86] W&B internal server running at pid: 18329, started at: 2023-05-11 15:10:13.317879
+2023-05-11 15:10:13,318 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status
+2023-05-11 15:10:13,325 INFO    WriterThread:18329 [datastore.py:open_for_write():85] open: /Users/nicholasgannon/Desktop/anthropic-testing/Q-and-A/PE/Q-and-A-03/wandb/run-20230511_151013-ym6gapdy/run-ym6gapdy.wandb
+2023-05-11 15:10:13,325 DEBUG   SenderThread:18329 [sender.py:send():375] send: header
+2023-05-11 15:10:13,350 DEBUG   SenderThread:18329 [sender.py:send():375] send: run
+2023-05-11 15:10:14,126 INFO    SenderThread:18329 [dir_watcher.py:__init__():219] watching files in: /Users/nicholasgannon/Desktop/anthropic-testing/Q-and-A/PE/Q-and-A-03/wandb/run-20230511_151013-ym6gapdy/files
+2023-05-11 15:10:14,126 INFO    SenderThread:18329 [sender.py:_start_run_threads():1124] run started: ym6gapdy with start time 1683832213.316641
+2023-05-11 15:10:14,126 DEBUG   SenderThread:18329 [sender.py:send_request():402] send_request: summary_record
+2023-05-11 15:10:14,127 INFO    SenderThread:18329 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-11 15:10:14,134 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: check_version
+2023-05-11 15:10:14,135 DEBUG   SenderThread:18329 [sender.py:send_request():402] send_request: check_version
+2023-05-11 15:10:14,285 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: run_start
+2023-05-11 15:10:14,291 DEBUG   HandlerThread:18329 [system_info.py:__init__():31] System info init
+2023-05-11 15:10:14,291 DEBUG   HandlerThread:18329 [system_info.py:__init__():46] System info init done
+2023-05-11 15:10:14,291 INFO    HandlerThread:18329 [system_monitor.py:start():181] Starting system monitor
+2023-05-11 15:10:14,291 INFO    SystemMonitor:18329 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-05-11 15:10:14,291 INFO    HandlerThread:18329 [system_monitor.py:probe():201] Collecting system info
+2023-05-11 15:10:14,292 INFO    SystemMonitor:18329 [interfaces.py:start():190] Started cpu monitoring
+2023-05-11 15:10:14,292 DEBUG   HandlerThread:18329 [system_info.py:probe():195] Probing system
+2023-05-11 15:10:14,292 INFO    SystemMonitor:18329 [interfaces.py:start():190] Started disk monitoring
+2023-05-11 15:10:14,292 INFO    SystemMonitor:18329 [interfaces.py:start():190] Started gpuapple monitoring
+2023-05-11 15:10:14,294 INFO    SystemMonitor:18329 [interfaces.py:start():190] Started memory monitoring
+2023-05-11 15:10:14,294 INFO    SystemMonitor:18329 [interfaces.py:start():190] Started network monitoring
+2023-05-11 15:10:14,298 DEBUG   HandlerThread:18329 [system_info.py:_probe_git():180] Probing git
+2023-05-11 15:10:14,355 DEBUG   HandlerThread:18329 [system_info.py:_probe_git():188] Probing git done
+2023-05-11 15:10:14,355 DEBUG   HandlerThread:18329 [system_info.py:probe():240] Probing system done
+2023-05-11 15:10:14,355 DEBUG   HandlerThread:18329 [system_monitor.py:probe():210] {'os': 'macOS-13.2-arm64-arm-64bit', 'python': '3.9.13', 'heartbeatAt': '2023-05-11T19:10:14.292369', 'startedAt': '2023-05-11T19:10:13.295250', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': 'Untitled.ipynb', 'root': '/Users/nicholasgannon/Desktop/anthropic-testing/Q-and-A/PE/Q-and-A-03', 'git': {'remote': 'https://github.com/nickgannon10/Q-and-A-03.git', 'commit': '1c0e1a5cce4d1981b75899fcf988593c39f9ff1c'}, 'email': 'nganno01@eecs.tufts.edu', 'host': 'Nicholass-MacBook-Pro-2.local', 'username': 'nicholasgannon', 'executable': '/Users/nicholasgannon/opt/miniconda3/envs/torch/bin/python', 'cpu_count': 8, 'cpu_count_logical': 8, 'disk': {'total': 460.4317207336426, 'used': 284.0835952758789}, 'gpuapple': {'type': 'arm', 'vendor': 'Apple'}, 'memory': {'total': 8.0}}
+2023-05-11 15:10:14,356 INFO    HandlerThread:18329 [system_monitor.py:probe():211] Finished collecting system info
+2023-05-11 15:10:14,356 INFO    HandlerThread:18329 [system_monitor.py:probe():214] Publishing system info
+2023-05-11 15:10:14,356 DEBUG   HandlerThread:18329 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-05-11 15:10:14,357 DEBUG   HandlerThread:18329 [system_info.py:_save_pip():67] Saving pip packages done
+2023-05-11 15:10:14,357 DEBUG   HandlerThread:18329 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-05-11 15:10:15,128 INFO    Thread-12 :18329 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/nicholasgannon/Desktop/anthropic-testing/Q-and-A/PE/Q-and-A-03/wandb/run-20230511_151013-ym6gapdy/files/conda-environment.yaml
+2023-05-11 15:10:15,128 INFO    Thread-12 :18329 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/nicholasgannon/Desktop/anthropic-testing/Q-and-A/PE/Q-and-A-03/wandb/run-20230511_151013-ym6gapdy/files/requirements.txt
+2023-05-11 15:10:15,129 INFO    Thread-12 :18329 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/nicholasgannon/Desktop/anthropic-testing/Q-and-A/PE/Q-and-A-03/wandb/run-20230511_151013-ym6gapdy/files/wandb-summary.json
+2023-05-11 15:10:20,476 DEBUG   HandlerThread:18329 [system_info.py:_save_conda():86] Saving conda packages done
+2023-05-11 15:10:20,477 INFO    HandlerThread:18329 [system_monitor.py:probe():216] Finished publishing system info
+2023-05-11 15:10:20,489 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:10:20,489 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-11 15:10:20,489 DEBUG   SenderThread:18329 [sender.py:send():375] send: files
+2023-05-11 15:10:20,489 INFO    SenderThread:18329 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-05-11 15:10:20,493 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-11 15:10:20,493 DEBUG   SenderThread:18329 [sender.py:send_request():402] send_request: stop_status
+2023-05-11 15:10:20,622 DEBUG   SenderThread:18329 [sender.py:send():375] send: telemetry
+2023-05-11 15:10:20,623 DEBUG   SenderThread:18329 [sender.py:send():375] send: telemetry
+2023-05-11 15:10:20,999 INFO    wandb-upload_0:18329 [upload_job.py:push():137] Uploaded file /var/folders/bn/sgh6gmts7t3bpw79mcpxlw0h0000gn/T/tmp0vbcm9ckwandb/vow5887m-wandb-metadata.json
+2023-05-11 15:10:21,150 INFO    Thread-12 :18329 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/nicholasgannon/Desktop/anthropic-testing/Q-and-A/PE/Q-and-A-03/wandb/run-20230511_151013-ym6gapdy/files/conda-environment.yaml
+2023-05-11 15:10:21,151 INFO    Thread-12 :18329 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/nicholasgannon/Desktop/anthropic-testing/Q-and-A/PE/Q-and-A-03/wandb/run-20230511_151013-ym6gapdy/files/wandb-metadata.json
+2023-05-11 15:10:21,151 INFO    Thread-12 :18329 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/nicholasgannon/Desktop/anthropic-testing/Q-and-A/PE/Q-and-A-03/wandb/run-20230511_151013-ym6gapdy/files/output.log
+2023-05-11 15:10:23,155 INFO    Thread-12 :18329 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/nicholasgannon/Desktop/anthropic-testing/Q-and-A/PE/Q-and-A-03/wandb/run-20230511_151013-ym6gapdy/files/output.log
+2023-05-11 15:10:24,893 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:10:25,163 INFO    Thread-12 :18329 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/nicholasgannon/Desktop/anthropic-testing/Q-and-A/PE/Q-and-A-03/wandb/run-20230511_151013-ym6gapdy/files/output.log
+2023-05-11 15:10:29,206 INFO    Thread-12 :18329 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/nicholasgannon/Desktop/anthropic-testing/Q-and-A/PE/Q-and-A-03/wandb/run-20230511_151013-ym6gapdy/files/output.log
+2023-05-11 15:10:29,962 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:10:34,975 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:10:35,493 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-11 15:10:35,493 DEBUG   SenderThread:18329 [sender.py:send_request():402] send_request: stop_status
+2023-05-11 15:10:40,596 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:10:45,622 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:10:46,265 INFO    Thread-12 :18329 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/nicholasgannon/Desktop/anthropic-testing/Q-and-A/PE/Q-and-A-03/wandb/run-20230511_151013-ym6gapdy/files/config.yaml
+2023-05-11 15:10:50,501 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-11 15:10:50,502 DEBUG   SenderThread:18329 [sender.py:send_request():402] send_request: stop_status
+2023-05-11 15:10:51,577 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:10:56,595 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:11:01,333 INFO    Thread-12 :18329 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/nicholasgannon/Desktop/anthropic-testing/Q-and-A/PE/Q-and-A-03/wandb/run-20230511_151013-ym6gapdy/files/output.log
+2023-05-11 15:11:02,430 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:11:05,347 INFO    Thread-12 :18329 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/nicholasgannon/Desktop/anthropic-testing/Q-and-A/PE/Q-and-A-03/wandb/run-20230511_151013-ym6gapdy/files/output.log
+2023-05-11 15:11:05,506 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-11 15:11:05,508 DEBUG   SenderThread:18329 [sender.py:send_request():402] send_request: stop_status
+2023-05-11 15:11:05,661 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-11 15:11:05,665 DEBUG   SenderThread:18329 [sender.py:send():375] send: history
+2023-05-11 15:11:05,665 DEBUG   SenderThread:18329 [sender.py:send_request():402] send_request: summary_record
+2023-05-11 15:11:05,666 INFO    SenderThread:18329 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-11 15:11:05,668 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: pause
+2023-05-11 15:11:05,668 INFO    HandlerThread:18329 [handler.py:handle_request_pause():719] stopping system metrics thread or process
+2023-05-11 15:11:05,668 INFO    HandlerThread:18329 [system_monitor.py:finish():190] Stopping system monitor
+2023-05-11 15:11:05,668 DEBUG   SystemMonitor:18329 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-05-11 15:11:05,668 INFO    HandlerThread:18329 [interfaces.py:finish():202] Joined cpu monitor
+2023-05-11 15:11:05,668 DEBUG   SystemMonitor:18329 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-05-11 15:11:05,668 INFO    HandlerThread:18329 [interfaces.py:finish():202] Joined disk monitor
+2023-05-11 15:11:05,669 DEBUG   SystemMonitor:18329 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-05-11 15:11:05,669 INFO    HandlerThread:18329 [interfaces.py:finish():202] Joined gpuapple monitor
+2023-05-11 15:11:05,670 INFO    HandlerThread:18329 [interfaces.py:finish():202] Joined memory monitor
+2023-05-11 15:11:05,670 INFO    HandlerThread:18329 [interfaces.py:finish():202] Joined network monitor
+2023-05-11 15:11:05,671 DEBUG   SenderThread:18329 [sender.py:send():375] send: telemetry
+2023-05-11 15:11:05,671 DEBUG   SenderThread:18329 [sender.py:send():375] send: stats
+2023-05-11 15:11:06,350 INFO    Thread-12 :18329 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/nicholasgannon/Desktop/anthropic-testing/Q-and-A/PE/Q-and-A-03/wandb/run-20230511_151013-ym6gapdy/files/wandb-summary.json
+2023-05-11 15:11:07,356 INFO    Thread-12 :18329 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/nicholasgannon/Desktop/anthropic-testing/Q-and-A/PE/Q-and-A-03/wandb/run-20230511_151013-ym6gapdy/files/output.log
+2023-05-11 15:11:07,675 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:11:12,695 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:11:17,718 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:11:18,426 INFO    Thread-12 :18329 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/nicholasgannon/Desktop/anthropic-testing/Q-and-A/PE/Q-and-A-03/wandb/run-20230511_151013-ym6gapdy/files/config.yaml
+2023-05-11 15:11:20,513 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-11 15:11:20,516 DEBUG   SenderThread:18329 [sender.py:send_request():402] send_request: stop_status
+2023-05-11 15:11:23,596 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:11:28,620 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:11:33,637 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:11:35,525 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-11 15:11:35,528 DEBUG   SenderThread:18329 [sender.py:send_request():402] send_request: stop_status
+2023-05-11 15:11:39,636 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:11:44,649 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:11:49,670 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:11:50,513 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-11 15:11:50,514 DEBUG   SenderThread:18329 [sender.py:send_request():402] send_request: stop_status
+2023-05-11 15:11:55,604 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:12:00,615 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:12:05,519 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-11 15:12:05,522 DEBUG   SenderThread:18329 [sender.py:send_request():402] send_request: stop_status
+2023-05-11 15:12:05,630 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:12:10,647 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:12:15,659 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:12:20,520 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-11 15:12:20,537 DEBUG   SenderThread:18329 [sender.py:send_request():402] send_request: stop_status
+2023-05-11 15:12:21,649 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:12:26,664 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:12:31,683 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:12:35,521 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-11 15:12:35,522 DEBUG   SenderThread:18329 [sender.py:send_request():402] send_request: stop_status
+2023-05-11 15:12:37,614 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:12:42,637 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:12:47,654 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:12:50,526 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-11 15:12:50,526 DEBUG   SenderThread:18329 [sender.py:send_request():402] send_request: stop_status
+2023-05-11 15:12:53,621 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:12:58,638 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:13:03,656 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:13:05,532 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-11 15:13:05,533 DEBUG   SenderThread:18329 [sender.py:send_request():402] send_request: stop_status
+2023-05-11 15:13:09,637 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:13:14,652 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:13:19,678 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:13:20,534 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-11 15:13:20,535 DEBUG   SenderThread:18329 [sender.py:send_request():402] send_request: stop_status
+2023-05-11 15:13:25,635 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:13:30,653 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:13:35,550 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-11 15:13:35,551 DEBUG   SenderThread:18329 [sender.py:send_request():402] send_request: stop_status
+2023-05-11 15:13:36,634 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:13:41,656 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:13:46,675 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:13:50,555 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-11 15:13:50,563 DEBUG   SenderThread:18329 [sender.py:send_request():402] send_request: stop_status
+2023-05-11 15:13:52,651 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:13:57,672 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:14:02,684 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:14:05,557 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-11 15:14:05,561 DEBUG   SenderThread:18329 [sender.py:send_request():402] send_request: stop_status
+2023-05-11 15:14:07,703 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:14:12,722 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:14:17,741 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:14:20,550 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-11 15:14:20,551 DEBUG   SenderThread:18329 [sender.py:send_request():402] send_request: stop_status
+2023-05-11 15:14:23,633 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:14:28,648 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:14:33,669 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:14:35,560 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-11 15:14:35,562 DEBUG   SenderThread:18329 [sender.py:send_request():402] send_request: stop_status
+2023-05-11 15:14:39,667 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:14:44,688 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:14:49,698 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:14:50,562 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-11 15:14:50,563 DEBUG   SenderThread:18329 [sender.py:send_request():402] send_request: stop_status
+2023-05-11 15:14:55,667 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:15:00,687 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:15:05,563 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-11 15:15:05,564 DEBUG   SenderThread:18329 [sender.py:send_request():402] send_request: stop_status
+2023-05-11 15:15:06,679 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:15:11,693 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:15:16,713 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:15:20,560 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-11 15:15:20,561 DEBUG   SenderThread:18329 [sender.py:send_request():402] send_request: stop_status
+2023-05-11 15:15:22,646 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:15:27,662 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:15:32,682 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:15:35,567 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-11 15:15:35,568 DEBUG   SenderThread:18329 [sender.py:send_request():402] send_request: stop_status
+2023-05-11 15:15:38,667 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:15:43,678 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:15:48,694 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:15:50,569 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-11 15:15:50,570 DEBUG   SenderThread:18329 [sender.py:send_request():402] send_request: stop_status
+2023-05-11 15:15:54,667 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:15:59,686 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:16:04,703 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:16:05,573 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-11 15:16:05,575 DEBUG   SenderThread:18329 [sender.py:send_request():402] send_request: stop_status
+2023-05-11 15:16:10,679 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:16:15,705 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:16:20,579 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-11 15:16:20,581 DEBUG   SenderThread:18329 [sender.py:send_request():402] send_request: stop_status
+2023-05-11 15:16:21,689 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:16:26,708 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:16:31,730 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:16:35,582 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-11 15:16:35,584 DEBUG   SenderThread:18329 [sender.py:send_request():402] send_request: stop_status
+2023-05-11 15:16:36,738 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:16:41,764 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:16:46,777 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:16:50,584 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-11 15:16:50,585 DEBUG   SenderThread:18329 [sender.py:send_request():402] send_request: stop_status
+2023-05-11 15:16:52,686 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:16:57,700 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:17:02,726 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:17:05,590 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-11 15:17:05,591 DEBUG   SenderThread:18329 [sender.py:send_request():402] send_request: stop_status
+2023-05-11 15:17:08,705 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:17:13,726 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:17:18,747 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:17:20,598 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-11 15:17:20,600 DEBUG   SenderThread:18329 [sender.py:send_request():402] send_request: stop_status
+2023-05-11 15:17:24,686 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:17:29,719 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:17:34,731 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:17:35,598 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-11 15:17:35,599 DEBUG   SenderThread:18329 [sender.py:send_request():402] send_request: stop_status
+2023-05-11 15:17:40,706 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:17:45,731 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:17:50,604 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-11 15:17:50,606 DEBUG   SenderThread:18329 [sender.py:send_request():402] send_request: stop_status
+2023-05-11 15:17:51,710 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:17:56,725 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:18:01,742 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:18:05,603 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-11 15:18:05,606 DEBUG   SenderThread:18329 [sender.py:send_request():402] send_request: stop_status
+2023-05-11 15:18:07,682 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:18:12,704 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:18:17,712 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:18:20,617 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-11 15:18:20,620 DEBUG   SenderThread:18329 [sender.py:send_request():402] send_request: stop_status
+2023-05-11 15:18:23,700 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:18:28,717 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:18:33,738 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:18:35,612 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-11 15:18:35,614 DEBUG   SenderThread:18329 [sender.py:send_request():402] send_request: stop_status
+2023-05-11 15:18:39,704 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:18:44,721 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:18:49,741 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:18:50,613 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-11 15:18:50,614 DEBUG   SenderThread:18329 [sender.py:send_request():402] send_request: stop_status
+2023-05-11 15:18:55,700 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:19:00,723 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:19:05,613 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-11 15:19:05,614 DEBUG   SenderThread:18329 [sender.py:send_request():402] send_request: stop_status
+2023-05-11 15:19:05,759 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:19:10,775 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:19:15,793 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:19:20,621 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-11 15:19:20,623 DEBUG   SenderThread:18329 [sender.py:send_request():402] send_request: stop_status
+2023-05-11 15:19:21,697 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:19:26,719 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:19:31,736 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:19:35,619 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-11 15:19:35,621 DEBUG   SenderThread:18329 [sender.py:send_request():402] send_request: stop_status
+2023-05-11 15:19:37,703 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:19:42,724 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:19:47,739 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:19:50,627 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-11 15:19:50,629 DEBUG   SenderThread:18329 [sender.py:send_request():402] send_request: stop_status
+2023-05-11 15:19:53,708 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:19:58,717 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:20:03,733 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:20:05,632 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-11 15:20:05,634 DEBUG   SenderThread:18329 [sender.py:send_request():402] send_request: stop_status
+2023-05-11 15:20:09,739 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:20:14,758 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:20:19,777 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:20:20,634 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-11 15:20:20,634 DEBUG   SenderThread:18329 [sender.py:send_request():402] send_request: stop_status
+2023-05-11 15:20:25,730 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:20:30,748 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:20:35,656 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-11 15:20:35,658 DEBUG   SenderThread:18329 [sender.py:send_request():402] send_request: stop_status
+2023-05-11 15:20:36,745 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:20:41,764 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:20:46,776 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:20:50,640 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-11 15:20:50,640 DEBUG   SenderThread:18329 [sender.py:send_request():402] send_request: stop_status
+2023-05-11 15:20:52,722 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:20:57,741 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:21:02,761 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:21:05,650 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-11 15:21:05,652 DEBUG   SenderThread:18329 [sender.py:send_request():402] send_request: stop_status
+2023-05-11 15:21:08,742 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:21:13,758 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:21:18,770 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:21:20,650 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-11 15:21:20,651 DEBUG   SenderThread:18329 [sender.py:send_request():402] send_request: stop_status
+2023-05-11 15:21:24,732 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:21:29,756 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:21:34,767 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:21:35,651 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-11 15:21:35,652 DEBUG   SenderThread:18329 [sender.py:send_request():402] send_request: stop_status
+2023-05-11 15:21:40,755 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:21:45,767 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:21:50,648 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-11 15:21:50,649 DEBUG   SenderThread:18329 [sender.py:send_request():402] send_request: stop_status
+2023-05-11 15:21:51,730 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:21:56,744 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:22:01,764 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:22:05,648 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-11 15:22:05,649 DEBUG   SenderThread:18329 [sender.py:send_request():402] send_request: stop_status
+2023-05-11 15:22:07,739 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:22:12,761 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:22:17,784 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:22:20,652 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-11 15:22:20,654 DEBUG   SenderThread:18329 [sender.py:send_request():402] send_request: stop_status
+2023-05-11 15:22:23,735 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:22:28,756 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:22:33,773 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:22:35,657 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-11 15:22:35,657 DEBUG   SenderThread:18329 [sender.py:send_request():402] send_request: stop_status
+2023-05-11 15:22:39,742 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:22:44,755 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:22:49,784 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:22:50,658 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-11 15:22:50,659 DEBUG   SenderThread:18329 [sender.py:send_request():402] send_request: stop_status
+2023-05-11 15:22:55,757 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:23:00,763 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:23:02,280 DEBUG   SenderThread:18329 [sender.py:send():375] send: exit
+2023-05-11 15:23:02,280 INFO    SenderThread:18329 [sender.py:send_exit():598] handling exit code: 0
+2023-05-11 15:23:02,282 INFO    SenderThread:18329 [sender.py:send_exit():600] handling runtime: 51
+2023-05-11 15:23:02,283 INFO    SenderThread:18329 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-11 15:23:02,283 INFO    SenderThread:18329 [sender.py:send_exit():606] send defer
+2023-05-11 15:23:02,283 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: defer
+2023-05-11 15:23:02,283 INFO    HandlerThread:18329 [handler.py:handle_request_defer():170] handle defer: 0
+2023-05-11 15:23:02,283 DEBUG   SenderThread:18329 [sender.py:send_request():402] send_request: defer
+2023-05-11 15:23:02,283 INFO    SenderThread:18329 [sender.py:send_request_defer():622] handle sender defer: 0
+2023-05-11 15:23:02,283 INFO    SenderThread:18329 [sender.py:transition_state():626] send defer: 1
+2023-05-11 15:23:02,283 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: defer
+2023-05-11 15:23:02,283 INFO    HandlerThread:18329 [handler.py:handle_request_defer():170] handle defer: 1
+2023-05-11 15:23:02,283 DEBUG   SenderThread:18329 [sender.py:send_request():402] send_request: defer
+2023-05-11 15:23:02,283 INFO    SenderThread:18329 [sender.py:send_request_defer():622] handle sender defer: 1
+2023-05-11 15:23:02,283 INFO    SenderThread:18329 [sender.py:transition_state():626] send defer: 2
+2023-05-11 15:23:02,283 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: defer
+2023-05-11 15:23:02,283 INFO    HandlerThread:18329 [handler.py:handle_request_defer():170] handle defer: 2
+2023-05-11 15:23:02,284 DEBUG   SenderThread:18329 [sender.py:send_request():402] send_request: defer
+2023-05-11 15:23:02,284 INFO    SenderThread:18329 [sender.py:send_request_defer():622] handle sender defer: 2
+2023-05-11 15:23:02,284 INFO    SenderThread:18329 [sender.py:transition_state():626] send defer: 3
+2023-05-11 15:23:02,284 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: defer
+2023-05-11 15:23:02,284 INFO    HandlerThread:18329 [handler.py:handle_request_defer():170] handle defer: 3
+2023-05-11 15:23:02,284 DEBUG   SenderThread:18329 [sender.py:send_request():402] send_request: defer
+2023-05-11 15:23:02,284 INFO    SenderThread:18329 [sender.py:send_request_defer():622] handle sender defer: 3
+2023-05-11 15:23:02,284 INFO    SenderThread:18329 [sender.py:transition_state():626] send defer: 4
+2023-05-11 15:23:02,284 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: defer
+2023-05-11 15:23:02,284 INFO    HandlerThread:18329 [handler.py:handle_request_defer():170] handle defer: 4
+2023-05-11 15:23:02,284 DEBUG   SenderThread:18329 [sender.py:send_request():402] send_request: defer
+2023-05-11 15:23:02,284 INFO    SenderThread:18329 [sender.py:send_request_defer():622] handle sender defer: 4
+2023-05-11 15:23:02,284 INFO    SenderThread:18329 [sender.py:transition_state():626] send defer: 5
+2023-05-11 15:23:02,284 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: defer
+2023-05-11 15:23:02,284 INFO    HandlerThread:18329 [handler.py:handle_request_defer():170] handle defer: 5
+2023-05-11 15:23:02,286 DEBUG   SenderThread:18329 [sender.py:send():375] send: summary
+2023-05-11 15:23:02,286 INFO    SenderThread:18329 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-11 15:23:02,286 DEBUG   SenderThread:18329 [sender.py:send_request():402] send_request: defer
+2023-05-11 15:23:02,286 INFO    SenderThread:18329 [sender.py:send_request_defer():622] handle sender defer: 5
+2023-05-11 15:23:02,286 INFO    SenderThread:18329 [sender.py:transition_state():626] send defer: 6
+2023-05-11 15:23:02,286 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: defer
+2023-05-11 15:23:02,286 INFO    HandlerThread:18329 [handler.py:handle_request_defer():170] handle defer: 6
+2023-05-11 15:23:02,286 DEBUG   SenderThread:18329 [sender.py:send_request():402] send_request: defer
+2023-05-11 15:23:02,286 INFO    SenderThread:18329 [sender.py:send_request_defer():622] handle sender defer: 6
+2023-05-11 15:23:02,286 INFO    SenderThread:18329 [sender.py:transition_state():626] send defer: 7
+2023-05-11 15:23:02,286 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: status_report
+2023-05-11 15:23:02,286 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: defer
+2023-05-11 15:23:02,286 INFO    HandlerThread:18329 [handler.py:handle_request_defer():170] handle defer: 7
+2023-05-11 15:23:02,287 DEBUG   SenderThread:18329 [sender.py:send_request():402] send_request: defer
+2023-05-11 15:23:02,287 INFO    SenderThread:18329 [sender.py:send_request_defer():622] handle sender defer: 7
+2023-05-11 15:23:02,369 INFO    Thread-12 :18329 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/nicholasgannon/Desktop/anthropic-testing/Q-and-A/PE/Q-and-A-03/wandb/run-20230511_151013-ym6gapdy/files/wandb-summary.json
+2023-05-11 15:23:03,285 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-11 15:23:04,275 INFO    SenderThread:18329 [sender.py:transition_state():626] send defer: 8
+2023-05-11 15:23:04,278 DEBUG   SenderThread:18329 [sender.py:send_request():402] send_request: poll_exit
+2023-05-11 15:23:04,278 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: defer
+2023-05-11 15:23:04,280 INFO    HandlerThread:18329 [handler.py:handle_request_defer():170] handle defer: 8
+2023-05-11 15:23:04,281 DEBUG   SenderThread:18329 [sender.py:send_request():402] send_request: defer
+2023-05-11 15:23:04,281 INFO    SenderThread:18329 [sender.py:send_request_defer():622] handle sender defer: 8
+2023-05-11 15:23:04,284 INFO    SenderThread:18329 [sender.py:transition_state():626] send defer: 9
+2023-05-11 15:23:04,285 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: defer
+2023-05-11 15:23:04,285 INFO    HandlerThread:18329 [handler.py:handle_request_defer():170] handle defer: 9
+2023-05-11 15:23:04,288 DEBUG   SenderThread:18329 [sender.py:send_request():402] send_request: defer
+2023-05-11 15:23:04,288 INFO    SenderThread:18329 [sender.py:send_request_defer():622] handle sender defer: 9
+2023-05-11 15:23:04,288 INFO    SenderThread:18329 [dir_watcher.py:finish():365] shutting down directory watcher
+2023-05-11 15:23:04,296 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-11 15:23:04,374 INFO    SenderThread:18329 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/nicholasgannon/Desktop/anthropic-testing/Q-and-A/PE/Q-and-A-03/wandb/run-20230511_151013-ym6gapdy/files/output.log
+2023-05-11 15:23:04,376 INFO    SenderThread:18329 [dir_watcher.py:finish():395] scan: /Users/nicholasgannon/Desktop/anthropic-testing/Q-and-A/PE/Q-and-A-03/wandb/run-20230511_151013-ym6gapdy/files
+2023-05-11 15:23:04,377 INFO    SenderThread:18329 [dir_watcher.py:finish():409] scan save: /Users/nicholasgannon/Desktop/anthropic-testing/Q-and-A/PE/Q-and-A-03/wandb/run-20230511_151013-ym6gapdy/files/requirements.txt requirements.txt
+2023-05-11 15:23:04,386 INFO    SenderThread:18329 [dir_watcher.py:finish():409] scan save: /Users/nicholasgannon/Desktop/anthropic-testing/Q-and-A/PE/Q-and-A-03/wandb/run-20230511_151013-ym6gapdy/files/output.log output.log
+2023-05-11 15:23:04,386 INFO    SenderThread:18329 [dir_watcher.py:finish():409] scan save: /Users/nicholasgannon/Desktop/anthropic-testing/Q-and-A/PE/Q-and-A-03/wandb/run-20230511_151013-ym6gapdy/files/config.yaml config.yaml
+2023-05-11 15:23:04,387 INFO    SenderThread:18329 [dir_watcher.py:finish():409] scan save: /Users/nicholasgannon/Desktop/anthropic-testing/Q-and-A/PE/Q-and-A-03/wandb/run-20230511_151013-ym6gapdy/files/wandb-summary.json wandb-summary.json
+2023-05-11 15:23:04,387 INFO    SenderThread:18329 [dir_watcher.py:finish():409] scan save: /Users/nicholasgannon/Desktop/anthropic-testing/Q-and-A/PE/Q-and-A-03/wandb/run-20230511_151013-ym6gapdy/files/conda-environment.yaml conda-environment.yaml
+2023-05-11 15:23:04,387 INFO    SenderThread:18329 [dir_watcher.py:finish():409] scan save: /Users/nicholasgannon/Desktop/anthropic-testing/Q-and-A/PE/Q-and-A-03/wandb/run-20230511_151013-ym6gapdy/files/wandb-metadata.json wandb-metadata.json
+2023-05-11 15:23:04,387 INFO    SenderThread:18329 [sender.py:transition_state():626] send defer: 10
+2023-05-11 15:23:04,387 DEBUG   SenderThread:18329 [sender.py:send_request():402] send_request: poll_exit
+2023-05-11 15:23:04,387 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: defer
+2023-05-11 15:23:04,387 INFO    HandlerThread:18329 [handler.py:handle_request_defer():170] handle defer: 10
+2023-05-11 15:23:04,387 DEBUG   SenderThread:18329 [sender.py:send_request():402] send_request: defer
+2023-05-11 15:23:04,387 INFO    SenderThread:18329 [sender.py:send_request_defer():622] handle sender defer: 10
+2023-05-11 15:23:04,387 INFO    SenderThread:18329 [file_pusher.py:finish():167] shutting down file pusher
+2023-05-11 15:23:04,847 WARNING StreamThr :18329 [internal.py:is_dead():414] Internal process exiting, parent pid 18162 disappeared
+2023-05-11 15:23:04,849 ERROR   StreamThr :18329 [internal.py:wandb_internal():152] Internal process shutdown.
+2023-05-11 15:23:05,055 INFO    wandb-upload_0:18329 [upload_job.py:push():137] Uploaded file /Users/nicholasgannon/Desktop/anthropic-testing/Q-and-A/PE/Q-and-A-03/wandb/run-20230511_151013-ym6gapdy/files/requirements.txt
+2023-05-11 15:23:05,083 INFO    wandb-upload_4:18329 [upload_job.py:push():137] Uploaded file /Users/nicholasgannon/Desktop/anthropic-testing/Q-and-A/PE/Q-and-A-03/wandb/run-20230511_151013-ym6gapdy/files/conda-environment.yaml
+2023-05-11 15:23:05,107 INFO    wandb-upload_1:18329 [upload_job.py:push():137] Uploaded file /Users/nicholasgannon/Desktop/anthropic-testing/Q-and-A/PE/Q-and-A-03/wandb/run-20230511_151013-ym6gapdy/files/output.log
+2023-05-11 15:23:05,170 INFO    wandb-upload_2:18329 [upload_job.py:push():137] Uploaded file /Users/nicholasgannon/Desktop/anthropic-testing/Q-and-A/PE/Q-and-A-03/wandb/run-20230511_151013-ym6gapdy/files/config.yaml
+2023-05-11 15:23:05,292 INFO    wandb-upload_3:18329 [upload_job.py:push():137] Uploaded file /Users/nicholasgannon/Desktop/anthropic-testing/Q-and-A/PE/Q-and-A-03/wandb/run-20230511_151013-ym6gapdy/files/wandb-summary.json
+2023-05-11 15:23:05,302 DEBUG   HandlerThread:18329 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-11 15:23:05,302 INFO    HandlerThread:18329 [handler.py:finish():845] shutting down handler
+2023-05-11 15:23:05,302 INFO    WriterThread:18329 [datastore.py:close():298] close: /Users/nicholasgannon/Desktop/anthropic-testing/Q-and-A/PE/Q-and-A-03/wandb/run-20230511_151013-ym6gapdy/run-ym6gapdy.wandb
+2023-05-11 15:23:05,302 DEBUG   SenderThread:18329 [sender.py:send_request():402] send_request: poll_exit
+2023-05-11 15:23:05,303 INFO    SenderThread:18329 [sender.py:finish():1550] shutting down sender
+2023-05-11 15:23:05,303 INFO    SenderThread:18329 [file_pusher.py:finish():167] shutting down file pusher
+2023-05-11 15:23:05,303 INFO    SenderThread:18329 [file_pusher.py:join():172] waiting for file pusher
+2023-05-11 15:23:05,494 INFO    Thread-11 :18329 [sender.py:transition_state():626] send defer: 11

@@ -1,0 +1,19 @@
+[34m[1mwandb[39m[22m: Streaming LangChain activity to W&B at https://wandb.ai/team_nickgannon10/wandb_prompts_react_demo/runs/ym6gapdy
+[34m[1mwandb[39m[22m: `WandbTracer` is currently in beta.
+[34m[1mwandb[39m[22m: Please report any issues to https://github.com/wandb/wandb/issues with the tag `langchain`.
+[1m> Entering new AgentExecutor chain...
+[32m[1mThought: I need to find the name of the movie about Alexander Supertramp and then find the director of that movie.
+[32m[1mAction: Search[movie about Alexander Supertramp]
+Observation: [36m[1mCould not find [movie about Alexander Supertramp]. Similar: ['Chris McCandless', 'Into the Wild (film)', 'Udo Kier', 'Jon Krakauer', 'Freddie Mercury', 'Anna Nicole Smith', 'List of television theme music', 'Relax, Take It Easy', 'Shane Alexander (musician)', 'Beacon Theatre (New York City)']
+Thought:[32m[1mThe movie about Alexander Supertramp is "Into the Wild". I need to search for the director of "Into the Wild".
+[32m[1mAction: Search[Into the Wild director]
+Observation: [36m[1mThe Legend of Zelda: Tears of the Kingdom is a 2023 action-adventure game developed and published by Nintendo for the Nintendo Switch. A sequel to The Legend of Zelda: Breath of the Wild (2017), Tears of the Kingdom retains many aspects of its predecessor, including the open world environment of Hyrule, which has been expanded to allow for more vertical exploration. Link, the protagonist of Tears of the Kingdom, is joined by Zelda and is opposed by a malevolent force that seeks to destroy Hyrule.
+[36m[1mTears of the Kingdom was conceived after ideas for Breath of the Wild downloadable content (DLC) had exceeded its scope. Its development was led by Nintendo's Entertainment Planning & Development (EPD) division, with Breath of the Wild director Hidemaro Fujibayashi and producer Eiji Aonuma reprising their roles. A teaser for the game was shown at E3 2019 with a full reveal at E3 2021. Tears of the Kingdom was initially planned for release in 2022 before being delayed to May 2023. Upon release, the game received universal acclaim from critics, with praise directed to the game's expansion of its open world setting and the use of new features to encourage player exploration and experimentation.
+Thought:
+Thought:[32m[1mThe search results are not related to the question. I need to refine my search to "Into the Wild movie director".
+[32m[1mAction: Search[Into the Wild movie director]
+Observation: [36m[1mInto the Wild is a 2007 American biographical adventure drama film written, co-produced, and directed by Sean Penn. It is an adaptation of the 1996 non-fiction book of the same name written by Jon Krakauer and tells the story of Christopher McCandless ("Alexander Supertramp"), a man who hiked across North America into the Alaskan wilderness in the early 1990s. The film stars Emile Hirsch as McCandless, Marcia Gay Harden as his mother, William Hurt as his father, Jena Malone, Catherine Keener, Brian H. Dierker, Vince Vaughn, Kristen Stewart, and Hal Holbrook.
+[36m[1mThe film premiered during the 2007 Rome Film Fest and opened outside Fairbanks, Alaska, on September 21, 2007. It received critical acclaim and grossed $56 million worldwide. It was nominated for two Golden Globes and won the award for Best Original Song: "Guaranteed" by Eddie Vedder. It was also nominated for two Academy Awards: Best Editing and Best Supporting Actor for Holbrook.
+Thought:[32m[1mSean Penn directed the movie "Into the Wild" about Alexander Supertramp. 
+[32m[1mAction: Finish[Sean Penn]
+[1m> Finished chain.

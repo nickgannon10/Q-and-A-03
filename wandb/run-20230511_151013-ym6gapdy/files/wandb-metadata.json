@@ -1,0 +1,33 @@
+{
+    "os": "macOS-13.2-arm64-arm-64bit",
+    "python": "3.9.13",
+    "heartbeatAt": "2023-05-11T19:10:14.292369",
+    "startedAt": "2023-05-11T19:10:13.295250",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "Untitled.ipynb",
+    "root": "/Users/nicholasgannon/Desktop/anthropic-testing/Q-and-A/PE/Q-and-A-03",
+    "git": {
+        "remote": "https://github.com/nickgannon10/Q-and-A-03.git",
+        "commit": "1c0e1a5cce4d1981b75899fcf988593c39f9ff1c"
+    },
+    "email": "nganno01@eecs.tufts.edu",
+    "host": "Nicholass-MacBook-Pro-2.local",
+    "username": "nicholasgannon",
+    "executable": "/Users/nicholasgannon/opt/miniconda3/envs/torch/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "disk": {
+        "total": 460.4317207336426,
+        "used": 284.0835952758789
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 8.0
+    }
+}
